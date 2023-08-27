@@ -1,0 +1,50 @@
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+
+body::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 1px solid white;  /* creates padding around scroll thumb */
+}
+
+.scrollbar-pink::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.scrollbar-pink::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-pink::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #ec407a;
+}
+
+.scrollbar-pink {
+    scrollbar-color: #ec407a #F5F5F5;
+}
+
+.btn_generate {
+    /* background: rgb(2,0,36); */
+color: black;
+font-weight: bold;
+border: 1px solid black;
+}
+
+.btn_generate:hover {
+    /* font-size: 17px; */
+    font-weight: bold;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    border: none;
+}

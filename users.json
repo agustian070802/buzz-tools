@@ -1,0 +1,13 @@
+{
+    "people": [
+        {
+            "name": "udinnn",
+            "password": "udin123"
+        },
+        {
+            "name": "admin",
+            "password": "admin123"
+        }
+        
+    ]
+}
